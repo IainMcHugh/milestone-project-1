@@ -1,31 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 body {
-    /* max-height: 100vh; */
+    max-height: 100vh;
 }
 
 header {
     position: relative;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 40vh;
-    background: linear-gradient(to top right, grey, rgb(122, 122, 255));
+    height: 35vh;
+    background: linear-gradient(to top, #ED8FEF -20%, #8DD6FF);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
     z-index: 999;
 }
 
-header h2 {
+.logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+
+.logo h2 {
+
+    padding-top: 40px;
+    /* text-align: center; */
     color: white;
     font-size: 42px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    transition: text-shadow 0.2s ease-in-out;
+}
+
+.logo h2:hover {
+    text-shadow: 2px 2px 2px #44444466;
+    /* transform: scaleX(1.05); */
 }
 
 nav {
-    height: 50%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,21 +58,114 @@ nav {
 
 ul {
     width: 100%;
-    padding: 5px;
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    z-index: 999;
 }
 
-a {
+ul a {
+    padding: 5px;
+    flex: 1;
     text-decoration: none;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
 }
 
-li {
+ul a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#active-tab {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+ul a li {
     list-style-type: none;
     color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.cloud-wrapper {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    animation-name: cloudAnim;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+}
+
+.cloud-wrapper img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+@keyframes cloudAnim {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+.mountain-wrapper {
+    /* dimensions: 820px x 462px */
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    height: 231px;
+    width: 410px;
+    transform: rotate(5deg);
+    animation-name: mountainAnim;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+}
+
+@keyframes mountainAnim {
+    from {
+        bottom: -100%;
+        /* opacity: 0.6; */
+    }
+
+    to {
+        bottom: -25%;
+        /* opacity: 0.3; */
+    }
+}
+
+.mountain-wrapper img {
+    height: 100%;
+    width: 100%;
+    /* background-image: url("../images/mountains.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: darkcyan; */
+    mix-blend-mode: multiply;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    background: url("../images/mountains_out2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 section {
@@ -57,28 +175,59 @@ section {
     width: 100%;
     height: 60vh;
     background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.section-text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #0049b7;
+    /* text-shadow: 2px 2px 2px #44444455; */
+}
+
+.hero {
+    /* width: 200px; */
+    width: 60%;
+    /* height: 200px; */
+    height: 30vh;
+}
+
+.hero img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 footer {
-    position: relative;
-    top: -40vh;
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 40vh;
-    background: linear-gradient(to bottom right, grey, blue);
+    height: 20vh;
+    background: linear-gradient(to bottom right, #005DE8, #551F9A 110%);
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
 }
 
 .created {
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
-footer h5 {
-    font-family: Helvetica, sans-serif;
+.created h5 {
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    font-family: 'Poppins', sans-serif;
     color: white;
-    font-weight: 100;
+    font-weight: 200;
+    text-align: center;
 }

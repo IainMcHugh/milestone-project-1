@@ -36,10 +36,12 @@ INSERT LOGO IMAGE HERE
 #### User Stories:
 
 _User:_
-* As a user, I want...
+* As a user, I want information on hiking from an experienced hikers perspective.
+* As a user, I want visual cues to aid my understanding of hiking information.
+* As a user, 
 
 _Developer:_
-* As a developer, I want...
+* As a developer, I want to communicate my knowledge of hiking in an effective way.
 
 
 #### Design:
@@ -47,17 +49,31 @@ _Developer:_
 ##### 3. Logo:
 
 ##### 2. Color Scheme:
+
+Pink to blue, colours of sky, calming and nuetral
   
 ##### 1. Font:
 
+Poppins - google fonts
+
 ##### 4. Geometry: 
+
+Slants between sections, creates a pleasing visual divider,
+within the theme of hiking trails and inclined mountain paths
  
 ##### 5. Wireframing:
 
+Figma - initial planning
+Created a mockup of each page, for both mobile and desktop
 
 [Back to Top](#table-of-contents)
 
 ## Technology Used.
+
+IDE - VSCode
+Languages - HTML + CSS
+Wireframing - Figma
+Logo/Images - Photoshop
 
 #### Languages, Frameworks, Editors & Version Control:
 
@@ -80,12 +96,5 @@ _Developer:_
 [Back to Top](#table-of-contents)
 
 ## Credits.
-
-1. To my mentor, <a href="https://github.com/5pence">**Medale Oluwafemi**</a>,
-
-2. To all in the #peer-code-review channel of Slack without whom, I would not have known of or been able to fix the abundant bugs and potential flaws, and for providing potential
-solutions to same:
-
-3. To my fellow students in Code Institute and to the staff and mentors who converse & frequent Slack regularly with their own queries/ideas & opinions, and assisting with mine, to help me better understand all facets of this course!
 
 [Back to Top](#table-of-contents)
