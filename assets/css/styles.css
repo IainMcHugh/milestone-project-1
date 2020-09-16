@@ -3,14 +3,19 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
     max-height: 100vh;
 }
 
-header {
+#home {
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+#top-home {
     position: relative;
     top: 0;
     left: 0;
@@ -18,74 +23,21 @@ header {
     height: 35vh;
     background: linear-gradient(to top, #ED8FEF -20%, #8DD6FF);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
-    z-index: 999;
+    overflow: hidden;
+    z-index: 10;
 }
 
-.logo {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    z-index: 999;
+.navbar {
+    z-index: 20;
 }
 
-.logo a {
-    text-decoration: none;
-}
-
-
-.logo h2 {
-
-    padding-top: 40px;
-    /* text-align: center; */
-    color: white;
-    font-size: 42px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    transition: text-shadow 0.2s ease-in-out;
-}
-
-.logo h2:hover {
-    text-shadow: 2px 2px 2px #44444466;
-    /* transform: scaleX(1.05); */
-}
-
-nav {
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    z-index: 999;
-}
-
-ul a {
-    padding: 5px;
-    flex: 1;
-    text-decoration: none;
-    text-align: center;
-    transition: background-color 0.2s ease-in-out;
-}
-
-ul a:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
-#active-tab {
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
-ul a li {
+#nav-brand-container {
     list-style-type: none;
-    color: white;
+}
+
+.navbar-brand {
+    background-color: transparent;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
 }
 
 .cloud-wrapper {
@@ -138,23 +90,19 @@ ul a li {
 @keyframes mountainAnim {
     from {
         bottom: -100%;
-        /* opacity: 0.6; */
     }
 
     to {
         bottom: -25%;
-        /* opacity: 0.3; */
     }
 }
 
 .mountain-wrapper img {
     height: 100%;
     width: 100%;
-    /* background-image: url("../images/mountains.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    /* background-color: darkcyan; */
     mix-blend-mode: multiply;
 }
 
@@ -168,7 +116,7 @@ ul a li {
 
 }
 
-section {
+#hero-section {
     position: relative;
     top: -10vh;
     left: 0;
@@ -187,14 +135,18 @@ section {
     font-weight: 500;
     font-size: 2.5rem;
     color: #0049b7;
-    /* text-shadow: 2px 2px 2px #44444455; */
+    overflow: hidden;
 }
 
 .hero {
-    /* width: 200px; */
     width: 60%;
-    /* height: 200px; */
     height: 30vh;
+}
+
+@media screen and (min-width: 500px) {
+    .hero {
+        width: 300px;
+    }
 }
 
 .hero img {
@@ -206,9 +158,9 @@ section {
     background-size: contain;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
+#bottom-home {
+    position: relative;
+    top: -15vh;
     left: 0;
     width: 100%;
     height: 20vh;
@@ -224,10 +176,87 @@ footer {
 
 .created h5 {
     width: 100%;
+    height: 1.5em;
     position: absolute;
     bottom: 40px;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 200;
     text-align: center;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+/* Tips section */
+
+#tips {
+    position: relative;
+    top: 0;
+    min-height: 100vh;
+    padding: 100px 10%;
+    width: 100%;
+    background-color: #ddd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circular-img {
+    margin-top: 50px;
+    
+}
+
+.circular-img img {
+    /* width: 100%;
+    height: 100%; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tips-text {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+}
+
+.tips-text h2 {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tips-text h4 {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Equipment section */
+
+#equipment {
+    position: relative;
+    top: 0;
+    min-height: 100vh;
+    padding: 100px 10%;
+    width: 100%;
+    background-color: #444;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Contact section */
+
+#contact {
+    position: relative;
+    top: 0;
+    min-height: 100vh;
+    padding: 100px 10%;
+    width: 100%;
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
 }
