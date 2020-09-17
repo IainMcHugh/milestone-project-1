@@ -1,4 +1,4 @@
-# Milestone Project 1 - Hike
+# Milestone Project 1 - HYKR
 ***
 
 ## Table of Contents:
@@ -54,7 +54,7 @@ Pink to blue, colours of sky, calming and nuetral
   
 ##### 1. Font:
 
-Poppins - google fonts
+<a href="https://fonts.google.com/specimen/Poppins">Poppins</a> - Google Fonts
 
 ##### 4. Geometry: 
 
@@ -63,8 +63,10 @@ within the theme of hiking trails and inclined mountain paths
  
 ##### 5. Wireframing:
 
-Figma - initial planning
+<a href="https://www.figma.com/file/QnfsdsjYig0fVDAhb79AH5/HYKR?node-id=0%3A1">Figma</a> - initial planning
 Created a mockup of each page, for both mobile and desktop
+
+
 
 [Back to Top](#table-of-contents)
 
@@ -79,6 +81,10 @@ Logo/Images - Photoshop
 
 #### Tools Used:
 * <a href="https://bennettfeely.com/clippy/">Clippy</a> ~ A useful tool I used to generate the desired clip path shapes on the homepage.
+
+* <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap</a> ~ Used a lot for dynamic spacing as well as specific components (Navbar, forms)
+
+* Photoshop ~ Used for creating the HYKR logo as well as converting certain images to PNG.
 
 
 [Back to Top](#table-of-contents)
@@ -96,5 +102,13 @@ Logo/Images - Photoshop
 [Back to Top](#table-of-contents)
 
 ## Credits.
+
+Bootstrap documentation:
+
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
+Images (via google search):
+
+https://pixabay.com/illustrations/hiking-mountain-couple-flat-design-4866373/
 
 [Back to Top](#table-of-contents)
