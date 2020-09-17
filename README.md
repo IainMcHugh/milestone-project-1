@@ -22,7 +22,7 @@
 
 ***
 
-INSERT LOGO IMAGE HERE
+![Cover Photo](assets/images/readme-cover-img.png)
 
 ***
 
@@ -38,7 +38,7 @@ INSERT LOGO IMAGE HERE
 _User:_
 * As a user, I want information on hiking from an experienced hikers perspective.
 * As a user, I want visual cues to aid my understanding of hiking information.
-* As a user, 
+* As a user, I want
 
 _Developer:_
 * As a developer, I want to communicate my knowledge of hiking in an effective way.

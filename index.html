@@ -4,20 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>MS1</title>
+    <title>HYKR</title>
 </head>
+
+<!-- TODO: 
+
+    - Create a logo DONE
+    - Create circular images (photoshop) DONE
+    - Clip path bottom of home page for better transition DONE
+    - Finish styling tips page DOING
+    - Write tips text DOING
+    - Create equipment items DOING
+    - Create Contact form DOING
+    - Update readme DOING
+
+
+-->
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FFFFFFee;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FFFFFFfc;">
             <div class="d-flex flex-grow-1">
-                <li id="nav-brand-container" data-toggle="collapse"
-                data-target=".navbar-collapse.show">
+                <li id="nav-brand-container" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="navbar-brand  d-lg-inline-block" href="#">
-                        HYKR
+                        <img src="assets/images/logo.png" alt="logo"> HYKR
                     </a>
                 </li>
                 <div class="w-100 text-right">
@@ -29,7 +43,7 @@
             <div class="collapse navbar-collapse flex-grow-1 text-left" id="myNavbar">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a href="#tips" class="nav-link m-2 menu-item nav-active">Tips</a>
+                        <a href="#tips" class="nav-link m-2 menu-item nav-active">Overview</a>
                     </li>
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a href="#equipment" class="nav-link m-2 menu-item">Equipment</a>
@@ -40,8 +54,8 @@
                 </ul>
             </div>
         </nav>
-
     </header>
+
     <section id="home">
         <div id="top-home">
             <div class="cloud-wrapper">
@@ -64,18 +78,43 @@
             </div>
         </div>
         <div id="bottom-home">
-            <div class="created">
-                <h5>Scroll down for information on tips and equipment</h5>
-            </div>
+            <!-- <h5>Scroll down for information on tips and equipment</h5> -->
         </div>
     </section>
+
     <section id="tips">
-        <h2>Hiking tips</h2>
+        <h2 class="display-4 my-5 text-light">Overview</h2>
         <div class="container">
             <div class="row">
-                <div class="col-4 text-center circular-img">
-                    <img src="assets/images/pngtree-water-bottle-icon-png-image_1642345.jpg" alt="pic">
+                <div class="col-12 col-sm-12 col-md-6 text-center tips-text mt-5">
+                    <h2 class="text-left py-3 pl-2">Purpose</h2>
+                    <h4 class="text-left px-2 my-auto-md">
+                        Here at HYKR, we aim to provide the best and most current information on all things hiking. From
+                        the best hidden hiking getaways, to what gear you should be investing in for your next big hike,
+                        we’ve got you covered!
+                        <br><br>
+                        Hiking is simply unlike any other sport or activity out there. It is ubiquitous across the
+                        planet, with no two hiking spots being quite the same. You can spend days trekking through the
+                        majestic Andes, challenge your body and mind with a gruelling summit of Kilimanjaro, or simply
+                        clear your head with a steady walk up your local hiking spot.
+                    </h4>
                 </div>
+                <div class="col-12 col-sm-12 col-md-6 text-center circular-img">
+                    <img src="assets/images/circular-img.png" alt="pic">
+                </div>
+                <div class="d-none d-md-block col-md-6 text-center circular-img">
+                    <img src="assets/images/circular-img2.png" alt="pic">
+                </div>
+                <div class="col-sm-12 col-md-6 text-center tips-text">
+                    <h2 class="text-left py-3 pl-2">Our goal</h2>
+                    <h4 class="text-left px-2">
+                        Our goal is to provide you with up to date equipment and technologies for enhancing your
+                        experience as a hiker and explorer. By signing up to our weekly newsletter, you will get links
+                        to newly release gear, newly discovered trails in your district, as well as advice on how and
+                        when to plan that next big hiking trip.</h4>
+                </div>
+            </div>
+            <!-- <div class="row">
                 <div class="col-8 text-center tips-text">
                     <h2>Title</h2>
                     <h4>
@@ -87,35 +126,27 @@
                         variables. Of course, these variables are part of what makes it so enjoyable! Use the following
                         hiking tips to make your first treks successful:</h4>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-8 text-center tips-text">
-                    <h2>Title</h2>
-                    <h4>
-                        Hiking is an excellent low-impact workout. Studies show it offers multiple physical and mental
-                        benefits. From reducing anxiety to preventing osteoporosis, hiking is an outdoor activity
-                        delivering benefits beyond scenic and fun.
-
-                        Unlike walking on a treadmill or paved path, hiking involves more, sometimes unpredictable,
-                        variables. Of course, these variables are part of what makes it so enjoyable! Use the following
-                        hiking tips to make your first treks successful:</h4>
-                </div>
                 <div class="col-4 text-center circular-img">
-                    <img src="assets/images/pngtree-water-bottle-icon-png-image_1642345.jpg" alt="pic">
+                    <img src="assets/images/circular-img.png" alt="pic">
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
+
     <section id="equipment">
-        <h2>Equipment</h2>
+        <h2 class="display-4 my-5 text-dark">Equipment</h2>
         <div class="equipment-wrapper">
 
         </div>
     </section>
+
     <section id="contact">
-        <h2>Contact</h2>
+        <h2 class="display-4 my-5 text-dark">Contact</h2>
+        <div class="contact-wrapper">
+
+        </div>
     </section>
-    <footer></footer>
+    <footer>This is the footer</footer>
 
 
 
