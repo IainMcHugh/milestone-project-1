@@ -111,4 +111,12 @@ Images (via google search):
 
 https://pixabay.com/illustrations/hiking-mountain-couple-flat-design-4866373/
 
+CSS-Tricks (in particular this great page on box-shadow):
+
+https://css-tricks.com/almanac/properties/b/box-shadow/
+
+Font Awesome (Icons):
+
+https://fontawesome.com/
+
 [Back to Top](#table-of-contents)
