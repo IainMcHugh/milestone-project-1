@@ -302,6 +302,16 @@ body {
 
 
 
+/* Necessary override of bootstrap class to make icons visible against white bg */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10%;
+}
+
+
 /* -----------------------Contact section----------------------- */
 
 #contact {
