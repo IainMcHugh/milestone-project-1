@@ -257,16 +257,28 @@
                     <i class="fas fa-at"></i> hello@hyker.com
                 </a>
                 <h5 class="w-100 text-left contact-link">
-                    <i class="fas fa-map-marker-alt"></i> Merrion Sq, Dublin 2
+                    <i class="fas fa-map-marker-alt"></i> 26 Merrion St Upper, Dublin
                 </h5>
             </div>
             <div class="lower-contact w-100">
-                <form action="#" method="post" class="d-flex flex-column justify-content-around align-items-center">
+                <div class="h-100 d-flex container justify-content-center">
+                    <div class="row w-100">
+                        <div class="col align-self-center">
+                            <form action="#" method="post" class="col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">
+                                <input class="w-100" type="text" name="name" id="name" placeholder="FULL NAME">
+                                <input class="w-100" type="email" name="email" id="email" placeholder="EMAIL">
+                                <textarea class="w-100" rows="4" name="message" id="message" placeholder="Your message.."></textarea>
+                                <button type="submit" name="submit-btn" id="submit-btn"><i class="fas fa-arrow-right"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- <form action="#" method="post" class="d-flex flex-column justify-content-around align-items-center py-5 container">
                     <input class="w-75" type="text" name="name" id="name" placeholder="FULL NAME">
                     <input class="w-75" type="email" name="email" id="email" placeholder="EMAIL">
                     <textarea class="w-75" rows="4" name="message" id="message" placeholder="Your message.."></textarea>
                     <button type="submit" name="submit-btn" id="submit-btn"><i class="fas fa-arrow-right"></i></button>
-                </form>
+                </form> -->
             </div>
         </div>
     </section>

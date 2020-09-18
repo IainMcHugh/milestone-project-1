@@ -119,4 +119,8 @@ Font Awesome (Icons):
 
 https://fontawesome.com/
 
+Adding correct href types for contact info:
+
+https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number#:~:text=%E2%80%9CTel%3A%20123%2D456%2D,call%20to%20action%20you%20want.
+
 [Back to Top](#table-of-contents)
