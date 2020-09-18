@@ -196,7 +196,7 @@
             </div>
 
             <!-- larger screens -->
-            <div class="row d-none d-md-flex">
+            <div class="row d-none d-md-flex static-card-inner">
                 <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/hatbuy.jpg" alt="Card image cap">
@@ -247,18 +247,24 @@
     </section>
 
     <section id="contact">
-        <h2 class="display-4 my-5 text-dark">Contact</h2>
+        <h2 class="display-4 my-5 text-primary">Contact</h2>
         <div class="contact-wrapper w-100">
-            <div class="px-4 upper-contact d-flex flex-column justify-content-around align-items-center">
-                <h5 class="w-75 text-left"><i class="fas fa-phone"></i> 087123456789</h5>
-                <h5 class="w-75 text-left"><i class="fas fa-at"></i> hello@hyker.com</h5>
-                <h5 class="w-75 text-left"><i class="fas fa-map-marker-alt"></i> Merrion Sq, Dublin 2</h5>
+            <div class="upper-contact d-flex flex-column justify-content-around align-items-center">
+                <a href="tel:08712345678" class="w-100 text-left text-dark text-decoration-none contact-link">
+                    <i class="fas fa-phone"></i> 087123456789 
+                </a>
+                <a href="mailto:iamchugh@tcd.ie" class="w-100 text-left text-dark text-decoration-none contact-link">
+                    <i class="fas fa-at"></i> hello@hyker.com
+                </a>
+                <h5 class="w-100 text-left contact-link">
+                    <i class="fas fa-map-marker-alt"></i> Merrion Sq, Dublin 2
+                </h5>
             </div>
             <div class="lower-contact w-100">
                 <form action="#" method="post" class="d-flex flex-column justify-content-around align-items-center">
-                    <input type="text" name="name" id="name" placeholder="FULL NAME">
-                    <input type="email" name="email" id="email" placeholder="EMAIL">
-                    <textarea rows="4" cols="25" name="message" id="message" placeholder="Your message.."></textarea>
+                    <input class="w-75" type="text" name="name" id="name" placeholder="FULL NAME">
+                    <input class="w-75" type="email" name="email" id="email" placeholder="EMAIL">
+                    <textarea class="w-75" rows="4" name="message" id="message" placeholder="Your message.."></textarea>
                     <button type="submit" name="submit-btn" id="submit-btn"><i class="fas fa-arrow-right"></i></button>
                 </form>
             </div>

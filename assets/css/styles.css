@@ -300,11 +300,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* .carousel-inner, .carousel-item {
+    overflow: visible;
+} */
+
 .card {
     transition: transform 400ms ease-in-out, box-shadow 400ms ease-in-out;
 }
 
-.card:hover {
+.static-card-inner .card:hover {
     transform: scale(1.1);
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -330,10 +334,14 @@ body {
     position: relative;
     top: -10vh;
     /* min-height: 100vh; */
-    padding: 0;
+    /* padding: 50px; */
     width: 100%;
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
+}
+
+#contact > h2 {
+    padding: 100px 2% 0;
 }
 
 .contact-wrapper {
@@ -343,6 +351,14 @@ body {
 
 .upper-contact {
     height: 33%;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.contact-link {
+    font-size: 1.5em;
+    font-weight: 200;
+    /* text-decoration: none; */
 }
 
 .lower-contact {
