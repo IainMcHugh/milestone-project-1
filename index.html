@@ -14,11 +14,9 @@
 
 <!-- TODO: 
 
-    - Add equipment carousel for smaller screens DONE
+    - Create quotes section on homepage for larger screens? DOING
     - Create info popover for equipment click DOING
     - Create purchase popover for equipment click DOING
-    - Create equipment items DONE
-    - Create Contact form DOING
     - Update readme DOING
 
 
@@ -64,21 +62,46 @@
                 <div class="image"></div>
             </div>
 
-        </div id="top-home">
-        <div id="hero-section">
-            <div class="section-text">
-                <h3>One step</h3>
-            </div>
-            <div class="hero">
-                <img src="assets/images/hikers.png" alt="hero">
-            </div>
-            <div class="section-text">
-                <h3>At a time.</h3>
-            </div>
         </div>
-        <div id="bottom-home">
-            <!-- <h5>Scroll down for information on tips and equipment</h5> -->
+        <div class="middle-home">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-around">
+                    <div class="d-none d-lg-flex col-lg-4 flex-row justify-content-center align-items-center">
+                        <img class="quote-img mx-4" src="assets/images/man_quote_out.jpg" alt="man quote">
+                        <blockquote class="blockquote text-secondary"> - "My favourite brand for all things hiking 😁"</blockquote>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div id="hero-section">
+                            <div class="section-text">
+                                <h3 class="text-center">One step</h3>
+                            </div>
+                            <div class="hero mx-auto">
+                                <img src="assets/images/hikers.png" alt="hero">
+                            </div>
+                            <div class="section-text">
+                                <h3 class="text-center">At a time.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-flex col-lg-4 flex-row justify-content-center align-items-center">
+                        <img class="quote-img mx-4" src="assets/images/woman_quote_out.jpg" alt="man quote">
+                        <blockquote class="blockquote text-secondary"> - "Great quality you can't top 🙌"</blockquote>
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="hero-section">
+                <div class="section-text">
+                    <h3>One step</h3>
+                </div>
+                <div class="hero">
+                    <img src="assets/images/hikers.png" alt="hero">
+                </div>
+                <div class="section-text">
+                    <h3>At a time.</h3>
+                </div>
+            </div> -->
         </div>
+        <div id="bottom-home"></div>
     </section>
 
     <section id="tips">
@@ -265,7 +288,7 @@
                 </div>
                 <!-- right side upper -->
                 <div class="d-none order-1 mx-2 d-md-flex flex-column justify-content-around align-items-center">
-                    <h2 class="display-4">We'd love to hear from you.</h2>
+                    <h2 class="display-4">We'd love to hear from you</h2>
                 </div>
             </div>
             <!-- Lower contact section -->
@@ -273,6 +296,7 @@
                 <div class="h-100 d-flex container justify-content-center">
                     <div class="row w-100">
                         <div class="col align-self-center">
+                            <p class="display-2 text-light col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">Get in touch</p>
                             <form action="#" method="post" class="col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">
                                 <input class="w-100" type="text" name="name" id="name" placeholder="FULL NAME">
                                 <input class="w-100" type="email" name="email" id="email" placeholder="EMAIL">
@@ -285,7 +309,24 @@
             </div>
         </div>
     </section>
-    <footer>This is the footer</footer>
+    <footer class="d-flex justify-content-around align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 text-center">
+                   <a href="www.github.com"><i class="sm-icons fab fa-github-square fa-5x"></i></a>
+                </div>
+                <div class="col-3 text-center">
+                   <a href="www.facebook.com"><i class="sm-icons fab fa-facebook-square fa-5x"></i></a>
+                </div>
+                <div class="col-3 text-center">
+                   <a href="www.twitter.com"><i class="sm-icons fab fa-twitter-square fa-5x"></i></a>
+                </div>
+                <div class="col-3 text-center">
+                   <a href="www.youtube.com"><i class="sm-icons fab fa-youtube-square fa-5x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

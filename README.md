@@ -123,4 +123,10 @@ Adding correct href types for contact info:
 
 https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number#:~:text=%E2%80%9CTel%3A%20123%2D456%2D,call%20to%20action%20you%20want.
 
+Stock photo use:
+
+https://www.pexels.com/photo/portrait-photo-of-smiling-man-with-his-arms-crossed-standing-in-front-of-white-wall-2379004/
+
+https://www.pexels.com/photo/women-s-white-and-black-button-up-collared-shirt-774909/
+
 [Back to Top](#table-of-contents)
