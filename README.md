@@ -4,7 +4,7 @@
 
 This is the overview for what the website is.
 
-<h2 align="center"><img src="assets/images/readme-cover-img.png"></h2>
+![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
 
 ## User Experience (UX)
 
