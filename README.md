@@ -2,7 +2,7 @@
 
 [View the live project here.](https://iainmchugh.github.io/ms1/)
 
-This is the overview for what the website is.
+HYKR is a mock homepage and simple e-Commerce shop for a hiking clothing brand. Its aim is 
 
 ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
 
