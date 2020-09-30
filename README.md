@@ -14,7 +14,7 @@
 
 HYKR is a mock homepage for a hiking clothing brand. It also acts as a simple e-Commerce shop for the clothing brand, which users have immediate access to via the homepage. The site aims to create a modern and high quality feel for the clothing brand through use of dynamic content and responsive layouts. 
 
-![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
+![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover.PNG?raw=true)
 
 ## User Experience (UX)
 
@@ -54,9 +54,17 @@ HYKR is a mock homepage for a hiking clothing brand. It also acts as a simple e-
 
 ## Features
 
--   Responsive on all device sizes
+-   Responsive across all device sizes
 
--   Interactive elements
+-   Interactive elements with seamless animations
+
+-   Comprehensive navigation
+
+-   Smooth scrolling
+
+-   Carousel implementation for Shop section
+
+-   Linear-gradient colouring with clip-paths
 
 ## Technologies Used
 
@@ -67,12 +75,10 @@ HYKR is a mock homepage for a hiking clothing brand. It also acts as a simple e-
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.0.0:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-2. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 3. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Poppins' font into the style.css file which is used on all pages throughout the project.
 4. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 5. [jQuery:](https://jquery.com/)
@@ -91,7 +97,7 @@ HYKR is a mock homepage for a hiking clothing brand. It also acts as a simple e-
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fiainmchugh.github.io%2Fms1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
 ### Testing User Stories from User Experience (UX) Section
 
