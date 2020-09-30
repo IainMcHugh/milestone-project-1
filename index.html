@@ -14,17 +14,21 @@
 
 <!-- TODO: 
 
-    - Create quotes section on homepage for larger screens? DOING
-    - Create info popover for equipment click DOING
-    - Create purchase popover for equipment click DOING
-    - Update readme DOING
+    1. DONE Home option in NavBar
+    2. DONE Call to Action Text in mountain section to clarify site purpose
+    3. DONE All links replaced with dummy buttons
+    4. DONE Remove form ACTION and METHOD
+    5. DONE Section Headings centered
+    6. DONE Card with 100% override bootstrap for shop
+    7  DONE Remove 140vh in contact/footer
+    8. DONE Replace Contact Header with "Get in Touch"
 
 
 -->
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FFFFFFfc;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="d-flex flex-grow-1">
                 <li id="nav-brand-container" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="navbar-brand  d-lg-inline-block" href="#">
@@ -39,6 +43,9 @@
             </div>
             <div class="collapse navbar-collapse flex-grow-1 text-left" id="myNavbar">
                 <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+                    </li>
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a href="#tips" class="nav-link m-2 menu-item nav-active">Overview</a>
                     </li>
@@ -61,7 +68,8 @@
             <div class="mountain-wrapper">
                 <div class="image"></div>
             </div>
-
+            
+            <p class="call-to-action">A clothing brand for Hikers.</p>
         </div>
         <div class="middle-home">
             <div class="container-fluid">
@@ -89,23 +97,12 @@
                     </div>
                 </div>
             </div>
-            <!-- <div id="hero-section">
-                <div class="section-text">
-                    <h3>One step</h3>
-                </div>
-                <div class="hero">
-                    <img src="assets/images/hikers.png" alt="hero">
-                </div>
-                <div class="section-text">
-                    <h3>At a time.</h3>
-                </div>
-            </div> -->
         </div>
         <div id="bottom-home"></div>
     </section>
 
     <section id="tips">
-        <h2 class="display-4 my-5 mx-5 text-light">Overview</h2>
+        <h2 class="display-4 my-5 mx-5 text-light text-center">Overview</h2>
         <div class="container">
             <div class="row justify-content-around align-items-center">
                 <div class="col-12 col-sm-12 col-md-5 text-center tips-text mt-5">
@@ -136,74 +133,58 @@
                         when to plan that next big hiking trip.</h4>
                 </div>
             </div>
-            <!-- <div class="row">
-                <div class="col-8 text-center tips-text">
-                    <h2>Title</h2>
-                    <h4>
-                        Hiking is an excellent low-impact workout. Studies show it offers multiple physical and mental
-                        benefits. From reducing anxiety to preventing osteoporosis, hiking is an outdoor activity
-                        delivering benefits beyond scenic and fun.
-
-                        Unlike walking on a treadmill or paved path, hiking involves more, sometimes unpredictable,
-                        variables. Of course, these variables are part of what makes it so enjoyable! Use the following
-                        hiking tips to make your first treks successful:</h4>
-                </div>
-                <div class="col-4 text-center circular-img">
-                    <img src="assets/images/circular-img.png" alt="pic">
-                </div>
-            </div> -->
         </div>
     </section>
 
     <section id="equipment">
-        <h2 class="display-4 my-5 text-primary">Order today</h2>
+        <h2 class="display-4 mt-5 mb-2 text-primary text-center">Order today</h2>
         <div class="equipment-wrapper">
-            <h4 class="text-secondary">Designed with you in mind</h4>
+            <h4 class="text-secondary text-center">Designed with you in mind</h4>
 
             <!-- Carousel (smaller screens) -->
             <div id="carouselExampleControls" class="carousel slide my-5 d-md-none" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="card mx-auto" style="width: 18rem;">
+                        <div class="card mx-auto card-overide">
                             <img class="card-img-top" src="assets/images/hatbuy.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">HYKR Sunhat</h5>
                                 <p class="card-text">Perfect for keeping the sun off your face on a long hike</p>
-                                <a href="#" class="btn btn-primary">Purchase</a>
-                                <a href="#" class="btn btn-warning">Info</a>
+                                <button class="btn btn-primary">Purchase</button>
+                                <button class="btn btn-warning">Info</button>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="card mx-auto" style="width: 18rem;">
+                        <div class="card mx-auto card-overide">
                             <img class="card-img-top" src="assets/images/bootsbuy.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">HYKR Boots</h5>
                                 <p class="card-text">Perfect for keeping the sun off your face on a long hike</p>
-                                <a href="#" class="btn btn-primary">Purchase</a>
-                                <a href="#" class="btn btn-warning">Info</a>
+                                <button class="btn btn-primary">Purchase</button>
+                                <button class="btn btn-warning">Info</button>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="card mx-auto" style="width: 18rem;">
+                        <div class="card mx-auto card-overide">
                             <img class="card-img-top" src="assets/images/trousersbuy.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">HYKR Trousers <span class="badge badge-secondary">New</span></h5>
                                 <p class="card-text">Perfect for keeping the sun off your face on a long hike</p>
-                                <a href="#" class="btn btn-primary">Purchase</a>
-                                <a href="#" class="btn btn-warning">Info</a>
+                                <button class="btn btn-primary">Purchase</button>
+                                <button class="btn btn-warning">Info</button>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="card mx-auto" style="width: 18rem;">
+                        <div class="card mx-auto card-overide">
                             <img class="card-img-top" src="assets/images/coat_buy.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">HYKR Coat</h5>
                                 <p class="card-text">Perfect for keeping the sun off your face on a long hike</p>
-                                <a href="#" class="btn btn-primary">Purchase</a>
-                                <a href="#" class="btn btn-warning">Info</a>
+                                <button class="btn btn-primary">Purchase</button>
+                                <button class="btn btn-warning">Info</button>
                             </div>
                         </div>
                     </div>
@@ -221,46 +202,46 @@
             <!-- larger screens -->
             <div class="row d-none d-md-flex static-card-inner">
                 <div class="col-md-6 col-lg-4 col-xl-3 my-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card card-overide">
                         <img class="card-img-top" src="assets/images/hatbuy.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">HYKR Sunhat</h5>
                             <p class="card-text">Perfect for keeping the sun off your face on a long hike</p>
-                            <a href="#" class="btn btn-primary">Purchase</a>
-                            <a href="#" class="btn btn-warning">Info</a>
+                            <button class="btn btn-primary">Purchase</button>
+                            <button class="btn btn-warning">Info</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3 my-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card card-overide">
                         <img class="card-img-top" src="assets/images/bootsbuy.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">HYKR Boots</h5>
                             <p class="card-text">Perfect for keeping the sun off your face on a long hike</p>
-                            <a href="#" class="btn btn-primary">Purchase</a>
-                            <a href="#" class="btn btn-warning">Info</a>
+                            <button class="btn btn-primary">Purchase</button>
+                            <button class="btn btn-warning">Info</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3 my-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card card-overide">
                         <img class="card-img-top" src="assets/images/trousersbuy.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">HYKR Trousers <span class="badge badge-secondary">New</span></h5>
                             <p class="card-text">Perfect for keeping the sun off your face on a long hike</p>
-                            <a href="#" class="btn btn-primary">Purchase</a>
-                            <a href="#" class="btn btn-warning">Info</a>
+                            <button class="btn btn-primary">Purchase</button>
+                            <button class="btn btn-warning">Info</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3 my-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card card-overide">
                         <img class="card-img-top" src="assets/images/coat_buy.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">HYKR Coat</h5>
                             <p class="card-text">Perfect for keeping the sun off your face on a long hike</p>
-                            <a href="#" class="btn btn-primary">Purchase</a>
-                            <a href="#" class="btn btn-warning">Info</a>
+                            <button class="btn btn-primary">Purchase</button>
+                            <button class="btn btn-warning">Info</button>
                         </div>
                     </div>
                 </div>
@@ -270,7 +251,7 @@
     </section>
 
     <section id="contact">
-        <h2 class="display-4 my-5 text-primary">Contact</h2>
+        <h2 class="display-4 my-5 text-primary text-center">Get in touch</h2>
         <div class="contact-wrapper w-100">
             <!-- Upper contact section -->
             <div class="upper-contact d-flex flex-row justify-content-around align-items-center">
@@ -287,8 +268,8 @@
                     </h5>
                 </div>
                 <!-- right side upper -->
-                <div class="d-none order-1 mx-2 d-md-flex flex-column justify-content-around align-items-center">
-                    <h2 class="display-4">We'd love to hear from you</h2>
+                <div class="d-none order-1 mx-2 d-lg-flex flex-column justify-content-around align-items-center">
+                    <h2 class="display-5 font-weight-light">We'd love to hear from you</h2>
                 </div>
             </div>
             <!-- Lower contact section -->
@@ -296,12 +277,12 @@
                 <div class="h-100 d-flex container justify-content-center">
                     <div class="row w-100">
                         <div class="col align-self-center">
-                            <p class="display-2 text-light col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">Get in touch</p>
-                            <form action="#" method="post" class="col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">
+                            <!-- <p class="display-2 text-light col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">Get in touch</p> -->
+                            <form class="col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">
                                 <input class="w-100" type="text" name="name" id="name" placeholder="FULL NAME">
                                 <input class="w-100" type="email" name="email" id="email" placeholder="EMAIL">
                                 <textarea class="w-100" rows="4" name="message" id="message" placeholder="Your message.."></textarea>
-                                <button type="submit" name="submit-btn" id="submit-btn"><i class="fas fa-arrow-right"></i></button>
+                                <button type="button" name="submit-btn" id="submit-btn"><i class="fas fa-arrow-right"></i></button>
                             </form>
                         </div>
                     </div>

@@ -30,6 +30,7 @@ body {
 }
 
 .navbar {
+    background-color: #FFFFFFfc;
     z-index: 20;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048);
@@ -144,6 +145,25 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 
+}
+
+.call-to-action {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    opacity: 0.7;
+    font-size: 4vw;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+    .call-to-action {
+        font-size: 3vw;
+    }
 }
 
 .middle-home {
@@ -317,6 +337,10 @@ body {
     transition: transform 400ms ease-in-out, box-shadow 400ms ease-in-out;
 }
 
+.card.card-overide {
+    width: 100%;
+}
+
 .static-card-inner .card:hover {
     transform: scale(1.05);
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -355,7 +379,7 @@ body {
 
 .contact-wrapper {
     width: 100%;
-    min-height: 140vh;
+    /* min-height: 140vh; */
 }
 
 .upper-contact {
