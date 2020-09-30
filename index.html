@@ -12,21 +12,8 @@
     <title>HYKR</title>
 </head>
 
-<!-- TODO: 
-
-    1. DONE Home option in NavBar
-    2. DONE Call to Action Text in mountain section to clarify site purpose
-    3. DONE All links replaced with dummy buttons
-    4. DONE Remove form ACTION and METHOD
-    5. DONE Section Headings centered
-    6. DONE Card with 100% override bootstrap for shop
-    7  DONE Remove 140vh in contact/footer
-    8. DONE Replace Contact Header with "Get in Touch"
-
-
--->
-
 <body>
+    <!-- Navigation Header section -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="d-flex flex-grow-1">
@@ -59,7 +46,7 @@
             </div>
         </nav>
     </header>
-
+    <!-- Home section -->
     <section id="home">
         <div id="top-home">
             <div class="cloud-wrapper">
@@ -68,7 +55,7 @@
             <div class="mountain-wrapper">
                 <div class="image"></div>
             </div>
-            
+
             <p class="call-to-action">A clothing brand for Hikers.</p>
         </div>
         <div class="middle-home">
@@ -76,7 +63,8 @@
                 <div class="row align-items-center justify-content-around">
                     <div class="d-none d-lg-flex col-lg-4 flex-row justify-content-center align-items-center">
                         <img class="quote-img mx-4" src="assets/images/man_quote_out.jpg" alt="man quote">
-                        <blockquote class="blockquote text-secondary"> - "My favourite brand for all things hiking 😁"</blockquote>
+                        <blockquote class="blockquote text-secondary"> - "My favourite brand for all things hiking 😁"
+                        </blockquote>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div id="hero-section">
@@ -100,7 +88,7 @@
         </div>
         <div id="bottom-home"></div>
     </section>
-
+    <!-- Overview section -->
     <section id="tips">
         <h2 class="display-4 my-5 mx-5 text-light text-center">Overview</h2>
         <div class="container">
@@ -135,13 +123,12 @@
             </div>
         </div>
     </section>
-
+    <!-- Shop section -->
     <section id="equipment">
         <h2 class="display-4 mt-5 mb-2 text-primary text-center">Order today</h2>
         <div class="equipment-wrapper">
             <h4 class="text-secondary text-center">Designed with you in mind</h4>
-
-            <!-- Carousel (smaller screens) -->
+            <!-- Shop section: Carousel (smaller screens) -->
             <div id="carouselExampleControls" class="carousel slide my-5 d-md-none" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -199,7 +186,7 @@
                 </a>
             </div>
 
-            <!-- larger screens -->
+            <!-- Shop section: larger screens -->
             <div class="row d-none d-md-flex static-card-inner">
                 <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card card-overide">
@@ -246,28 +233,28 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-
+    <!-- Contact section -->
     <section id="contact">
         <h2 class="display-4 my-5 text-primary text-center">Get in touch</h2>
         <div class="contact-wrapper w-100">
-            <!-- Upper contact section -->
+            <!-- Upper Contact section -->
             <div class="upper-contact d-flex flex-row justify-content-around align-items-center">
-                <!-- left side upper -->
+                <!-- Upper Contact section: left side -->
                 <div class="d-flex order-2 mx-2 flex-column justify-content-around align-items-center">
                     <a href="tel:08712345678" class="w-100 text-left text-dark text-decoration-none contact-link">
-                        <i class="fas fa-phone"></i> 087123456789 
+                        <i class="fas fa-phone"></i> 087123456789
                     </a>
-                    <a href="mailto:iamchugh@tcd.ie" class="w-100 text-left text-dark text-decoration-none contact-link">
+                    <a href="mailto:iamchugh@tcd.ie"
+                        class="w-100 text-left text-dark text-decoration-none contact-link">
                         <i class="fas fa-at"></i> hello@hyker.com
                     </a>
                     <h5 class="w-100 text-left contact-link">
                         <i class="fas fa-map-marker-alt"></i> 26 Merrion St Upper, Dublin
                     </h5>
                 </div>
-                <!-- right side upper -->
+                <!-- Upper Contact section: right side -->
                 <div class="d-none order-1 mx-2 d-lg-flex flex-column justify-content-around align-items-center">
                     <h2 class="display-5 font-weight-light">We'd love to hear from you</h2>
                 </div>
@@ -277,12 +264,14 @@
                 <div class="h-100 d-flex container justify-content-center">
                     <div class="row w-100">
                         <div class="col align-self-center">
-                            <!-- <p class="display-2 text-light col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">Get in touch</p> -->
-                            <form class="col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">
+                            <form
+                                class="col-12 col-lg-8 align-self-center d-flex flex-column justify-content-around align-items-center py-2 container">
                                 <input class="w-100" type="text" name="name" id="name" placeholder="FULL NAME">
                                 <input class="w-100" type="email" name="email" id="email" placeholder="EMAIL">
-                                <textarea class="w-100" rows="4" name="message" id="message" placeholder="Your message.."></textarea>
-                                <button type="button" name="submit-btn" id="submit-btn"><i class="fas fa-arrow-right"></i></button>
+                                <textarea class="w-100" rows="4" name="message" id="message"
+                                    placeholder="Your message.."></textarea>
+                                <button type="button" name="submit-btn" id="submit-btn"><i
+                                        class="fas fa-arrow-right"></i></button>
                             </form>
                         </div>
                     </div>
@@ -290,48 +279,31 @@
             </div>
         </div>
     </section>
+    <!-- Footer section -->
     <footer class="d-flex justify-content-around align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-3 text-center">
-                   <a href="https://www.github.com"><i class="sm-icons fab fa-github-square fa-5x"></i></a>
+                    <a href="https://www.github.com"><i class="sm-icons fab fa-github-square fa-5x"></i></a>
                 </div>
                 <div class="col-3 text-center">
-                   <a href="https://www.facebook.com"><i class="sm-icons fab fa-facebook-square fa-5x"></i></a>
+                    <a href="https://www.facebook.com"><i class="sm-icons fab fa-facebook-square fa-5x"></i></a>
                 </div>
                 <div class="col-3 text-center">
-                   <a href="https://www.twitter.com"><i class="sm-icons fab fa-twitter-square fa-5x"></i></a>
+                    <a href="https://www.twitter.com"><i class="sm-icons fab fa-twitter-square fa-5x"></i></a>
                 </div>
                 <div class="col-3 text-center">
-                   <a href="https://www.youtube.com"><i class="sm-icons fab fa-youtube-square fa-5x"></i></a>
+                    <a href="https://www.youtube.com"><i class="sm-icons fab fa-youtube-square fa-5x"></i></a>
                 </div>
             </div>
         </div>
     </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Bootstrap - JS scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

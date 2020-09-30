@@ -1,3 +1,13 @@
+<!-- 
+    1. No returning visitor or frequent visitor
+    2. User Stories, work back from each section on site to define them
+    3. Test -> involve each link (Navbar example)
+    4. "integrity crossorigin" meta tag part remove
+    5. Tidy up code and remove unecessary comments
+    6. Add comments to seperate sections html and css
+    7. Rename to milestone_project_1 
+-->
+
 <h1 align="center">Milestone Project 1 - HYKR</h1>
 
 [View the live project here.](https://iainmchugh.github.io/ms1/)
@@ -15,17 +25,6 @@ HYKR is a mock homepage and simple e-Commerce shop for a hiking clothing brand. 
         1. As a First Time Visitor, I want to understand the purpose and nature of this particular brand via their website.
         2. As a First Time Visitor, I want to get an idea of what sort of products are available on this website.
         3. As a First Time Visitor, I want a seemless experience that keeps my attention throughout the entirety of the website via appropriate visual cues and clearly divided sections.
-
-    -   #### Returning Visitor Goals
-
-        1. As a Returning Visitor, I want to easily navigate to the section of the site I am interested in returning to.
-        2. As a Returning Visitor, I am interested in striking visuals to enhance my experience and aid me in recalling the site layout.
-        3. As a Returning Visitor, I want a clear and concise contact section, that provides all of the necessary information for me to contact the site owners.
-
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to see new shop products to keep me interested, while simultaneously observing a consistent shop UI design, so I am quickly familiar with how it functions.
-        2. As a Frequent User, .
-        3. As a Frequent User, .
 
 -   ### Design
     -   #### Colour Scheme
@@ -104,41 +103,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
-
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
