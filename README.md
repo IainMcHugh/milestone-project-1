@@ -12,7 +12,7 @@
 
 [View the live project here.](https://iainmchugh.github.io/ms1/)
 
-HYKR is a mock homepage and simple e-Commerce shop for a hiking clothing brand. Its aim is 
+HYKR is a mock homepage for a hiking clothing brand. It also acts as a simple e-Commerce shop for the clothing brand, which users have immediate access to via the homepage. The site aims to create a modern and high quality feel for the clothing brand through use of dynamic content and responsive layouts. 
 
 ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
 
@@ -20,11 +20,13 @@ HYKR is a mock homepage and simple e-Commerce shop for a hiking clothing brand. 
 
 -   ### User stories
 
-    -   #### First Time Visitor Goals
+    -   #### Site Visitor Goals
 
-        1. As a First Time Visitor, I want to understand the purpose and nature of this particular brand via their website.
-        2. As a First Time Visitor, I want to get an idea of what sort of products are available on this website.
-        3. As a First Time Visitor, I want a seemless experience that keeps my attention throughout the entirety of the website via appropriate visual cues and clearly divided sections.
+        1. As a site Visitor, I want to understand the purpose and nature of this particular brand via their website.
+        2. As a site Visitor, I want to get an idea of what sort of products are available on this website.
+        3. As a site Visitor, I want a seemless experience that keeps my attention throughout the entirety of the website via appropriate visual cues and clearly divided sections.
+        4. As a site Visitor, I want to easily navigate to the section of the site I am interested in returning to.
+        5. As a site Visitor, I want a clear and concise contact section, that provides all of the necessary information for me to contact the site owners.
 
 -   ### Design
     -   #### Colour Scheme
@@ -40,7 +42,15 @@ HYKR is a mock homepage and simple e-Commerce shop for a hiking clothing brand. 
 *   ### Wireframes
 
     -   Figma Wireframe - [View](https://www.figma.com/file/QnfsdsjYig0fVDAhb79AH5/HYKR?node-id=0%3A1)
+    -   Note: The Wireframe was something I used primarly as a method to get my initial concept ideas down as well as general page layouts and colour schemes. Originally my aim was to create a sample Hiking blog site however throughout development I felt the idea would pan out better as a mock clothing brand site. I did create mockups for each section of the altered design on a whiteboard:
 
+    ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
+
+    ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
+
+    ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
+
+    ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
 
 ## Features
 
