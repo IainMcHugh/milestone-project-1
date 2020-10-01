@@ -42,15 +42,7 @@ HYKR is a mock homepage for a hiking clothing brand. It also acts as a simple e-
 *   ### Wireframes
 
     -   Figma Wireframe - [View](https://www.figma.com/file/QnfsdsjYig0fVDAhb79AH5/HYKR?node-id=0%3A1)
-    -   Note: The Wireframe was something I used primarly as a method to get my initial concept ideas down as well as general page layouts and colour schemes. Originally my aim was to create a sample Hiking blog site however throughout development I felt the idea would pan out better as a mock clothing brand site. I did create mockups for each section of the altered design on a whiteboard:
-
-    ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
-
-    ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
-
-    ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
-
-    ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover-img.PNG?raw=true)
+    -   Note: The Wireframe was something I used primarly as a method to get my initial concept ideas down as well as general page layouts and colour schemes. Originally my aim was to create a sample Hiking blog site however throughout development I felt the idea would pan out better as a mock clothing brand site. I did create mockups for each section of the altered design on a whiteboard, which can be viewed <a href="assets/mockup">here</a>
 
 ## Features
 
