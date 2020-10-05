@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Remove default browser styling */
+
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
+/* Removes y-offset caused by mountain animation at bottom of site */
 body {
     max-height: 100vh;
 }
@@ -49,7 +52,6 @@ body {
     width: 200px;
     height: 50px;
     position: absolute;
-    /* top: 80px; */
     top: 10vh;
     left: 0;
     animation-name: cloudAnim;
@@ -82,7 +84,6 @@ body {
     /* dimensions: 820px x 462px */
     position: absolute;
     bottom: -100%;
-    /* left: 0; */
     right: calc(100% - 410px);
     height: 231px;
     width: 410px;
@@ -119,7 +120,6 @@ body {
         right: 0;
         height: calc(231px * 1.5);
         width: calc(410px * 1.5);
-        /* bottom: -10%; */
     }
 }
 
@@ -223,7 +223,6 @@ body {
     left: 0;
     width: 100%;
     height: 30vh;
-    /* background: linear-gradient(to bottom right, #005DE8, #551F9A 110%); */
     background: linear-gradient(to bottom right, #005DE8, #002358 110%);
     clip-path: polygon(0 25%, 100% 0, 100% 80%, 0 100%);
     z-index: 10;
@@ -245,7 +244,7 @@ body {
 
 
 
-/* -----------------------Tips section----------------------- */
+/* -----------------------Overview section----------------------- */
 
 #tips {
     position: relative;
@@ -253,9 +252,6 @@ body {
     min-height: 100vh;
     padding: 100px 2%;
     width: 100%;
-    /* background-color: #ddd; */
-    /* background: linear-gradient(to bottom, #005DE8, #551F9A 70%); */
-    /* background: linear-gradient(to bottom, #005DE8,  #7DF9FF 200%); */
     background: linear-gradient(to bottom, #004fe2, #70a2ff 200%);
     font-family: 'Poppins', sans-serif;
 }
@@ -301,7 +297,6 @@ body {
 .tips-text {
     padding: 10px;
     background-color: white;
-    /* border: 2px solid black; */
     border-radius: 20px;
 }
 
@@ -315,9 +310,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-/* -----------------------Equipment section----------------------- */
+/* -----------------------Shop section----------------------- */
 
 #equipment {
     position: relative;
@@ -328,10 +321,6 @@ body {
     background-color: #eee;
     font-family: 'Poppins', sans-serif;
 }
-
-/* .carousel-inner, .carousel-item {
-    overflow: visible;
-} */
 
 .card {
     transition: transform 400ms ease-in-out, box-shadow 400ms ease-in-out;
@@ -366,8 +355,6 @@ body {
 #contact {
     position: relative;
     top: -10vh;
-    /* min-height: 100vh; */
-    /* padding: 50px; */
     width: 100%;
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -379,7 +366,6 @@ body {
 
 .contact-wrapper {
     width: 100%;
-    /* min-height: 140vh; */
 }
 
 .upper-contact {
@@ -391,7 +377,6 @@ body {
 .contact-link {
     font-size: 1.5em;
     font-weight: 200;
-    /* text-decoration: none; */
 }
 
 .lower-contact {
@@ -399,7 +384,6 @@ body {
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     background: linear-gradient(to bottom right, #005DE8, #002358 110%);
     padding-top: 10vh;
-    /* display: flex; */
 }
 
 form {
@@ -429,7 +413,6 @@ form > textarea:focus, form > input:focus {
     transition: background-color 0.2s ease-in-out;
     background-color: rgba(255, 255, 255, 0.05);
     outline: none;
-    /* color: blue; */
 }
 
 #submit-btn {
@@ -449,7 +432,7 @@ form > textarea:focus, form > input:focus {
     color: #002358;
 }
 
-/* -----------------------Contact section----------------------- */
+/* -----------------------Footer section----------------------- */
 
 footer {
     position: relative;

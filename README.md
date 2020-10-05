@@ -5,7 +5,7 @@
     4. "integrity crossorigin" meta tag part remove
     5. Tidy up code and remove unecessary comments
     6. Add comments to seperate sections html and css
-    7. Rename to milestone_project_1 
+    7. Rename to milestone_project_1 DONE
 -->
 
 <h1 align="center">Milestone Project 1 - HYKR</h1>
