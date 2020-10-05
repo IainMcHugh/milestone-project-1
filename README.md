@@ -137,7 +137,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   Mountain anim causes white padding on bottom, Form size, white bar above footer
+-   The initial mountain vertical animation seems to offset the overall height of the site. I was able to remove this offset with a max-height set on the body, however further investigation is needed in order to correct for this bug.
+
+-   When testing on multiple browsers, it was observed that smooth scrolling was not active on Safari. Smooth scrolling is not supported by Safari and to obtain this effect would require JavaScript.
 
 ## Deployment
 
