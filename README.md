@@ -1,13 +1,8 @@
-<!-- 
-    1. User Stories, work back from each section on site to define them
-    2. Test -> involve each link (Navbar example)
--->
-
 <h1 align="center">Milestone Project 1 - HYKR</h1>
 
 [View the live project here.](https://iainmchugh.github.io/milestone-project-1/)
 
-HYKR is a mock homepage for a hiking clothing brand. It also acts as a simple e-Commerce shop for the clothing brand, which users have immediate access to via the homepage. The site aims to create a modern and high quality feel for the clothing brand through use of dynamic content and responsive layouts. 
+HYKR is a homepage for a hiking clothing brand. It also acts as a simple e-Commerce shop for the clothing brand, which users have immediate access to via the homepage. The site aims to create a modern and high quality feel for the clothing brand through use of dynamic content and responsive layouts. 
 
 ![Cover Photo](https://github.com/IainMcHugh/ms1/blob/master/assets/images/readme-cover.PNG?raw=true)
 
@@ -139,7 +134,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   The initial mountain vertical animation seems to offset the overall height of the site. I was able to remove this offset with a max-height set on the body, however further investigation is needed in order to correct for this bug.
 
+-   Both the actionable buttons on the shop items and the form submission button act as dummy buttons as there is no JavaScript implemented to handle button clicks. Currently clicking these buttons results in no action on the site.
+
 -   When testing on multiple browsers, it was observed that smooth scrolling was not active on Safari. Smooth scrolling is not supported by Safari and to obtain this effect would require JavaScript.
+
+## Future Features
+
+-   In the future I would like to implement JavaScript so a user can submit a form and generate an email from it.
+
+-   In the future I would also like to implement authentication and backend services, as this would allow users to save items to their cart, as well as the site holder to dynamically update their shop items without having to redeploy the site for new product ranges.
+
+-   Without a backend service implemented, and with sufficient items available within the shop, it would be possible to categorise shop items and even implement routing features so the user could browse specific clothing categories.
+
+-   I would also like to implement filtering on shop items. It would allow users to select ranges and also order items by certain criteria.
 
 ## Deployment
 
@@ -159,7 +166,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/IainMcHugh/milestone-project-1)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
@@ -173,13 +180,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone git@github.com:IainMcHugh/milestone-project-1.git
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone git@github.com:IainMcHugh/milestone-project-1.git
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.

@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Remove default browser styling */
-
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
-/* Removes y-offset caused by mountain animation at bottom of site */
 body {
     max-height: 100vh;
 }
@@ -115,20 +112,6 @@ body {
     }
 }
 
-@media screen and (min-width: 500px) {
-    .mountain-wrapper {
-        right: 0;
-        height: calc(231px * 1.5);
-        width: calc(410px * 1.5);
-    }
-}
-
-@media screen and (min-height: 1000px) {
-    .mountain-wrapper {
-        animation-name: mountainAnim2;
-    }
-}
-
 .mountain-wrapper img {
     height: 100%;
     width: 100%;
@@ -158,12 +141,6 @@ body {
     opacity: 0.7;
     font-size: 4vw;
     text-transform: capitalize;
-}
-
-@media screen and (min-width: 768px) {
-    .call-to-action {
-        font-size: 3vw;
-    }
 }
 
 .middle-home {
@@ -200,12 +177,6 @@ body {
 .hero {
     width: 60%;
     height: 30vh;
-}
-
-@media screen and (min-width: 500px) {
-    .hero {
-        width: 300px;
-    }
 }
 
 .hero img {
@@ -255,23 +226,6 @@ body {
     background: linear-gradient(to bottom, #004fe2, #70a2ff 200%);
     font-family: 'Poppins', sans-serif;
 }
-
-@media screen and (min-width: 768px){
-
-    #tips {
-        padding: 100px 5%;
-    }
-
-}
-
-@media screen and (min-width: 1000px){
-
-    #tips {
-        padding: 100px 10%;
-    }
-
-}
-
 
 .row {
     margin-top: 20px;
@@ -361,7 +315,7 @@ body {
 }
 
 #contact > h2 {
-    padding: 100px 2% 0;
+    padding: 75px 2%;
 }
 
 .contact-wrapper {
@@ -372,11 +326,6 @@ body {
     height: 33%;
     width: 80%;
     margin: 10px auto;
-}
-
-.contact-link {
-    font-size: 1.5em;
-    font-weight: 200;
 }
 
 .lower-contact {
@@ -436,13 +385,17 @@ form > textarea:focus, form > input:focus {
 
 footer {
     position: relative;
-    top: -10vh;
+    top: -15vh;
     width: 100%;
-    height: 20vh;
     margin-top: 0;
     background-color: #222;
     color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+.contact-link {
+    font-size: 1em;
+    font-weight: 200;
 }
 
 .sm-icons {
@@ -453,4 +406,38 @@ footer {
 
 .sm-icons:hover {
     transform: scale(1.1);
+}
+
+/* -----------------------Media queries----------------------- */
+
+@media screen and (min-width: 500px){
+    .mountain-wrapper {
+        right: 0;
+        height: calc(231px * 1.5);
+        width: calc(410px * 1.5);
+    }
+
+    .hero {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .call-to-action {
+        font-size: 3vw;
+    }
+
+    #tips {
+        padding: 100px 5%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .mountain-wrapper {
+        animation-name: mountainAnim2;
+    }
+
+    #tips {
+        padding: 100px 10%;
+    }
 }

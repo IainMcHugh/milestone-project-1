@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/1997032819.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1997032819.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>HYKR</title>
 </head>
 
 <body>
-    <!-- Navigation Header section -->
+    <!----------------------------- Navigation Header section ----------------------------->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="d-flex flex-grow-1">
@@ -46,7 +45,7 @@
             </div>
         </nav>
     </header>
-    <!-- Home section -->
+    <!----------------------------- Home section ----------------------------->
     <section id="home">
         <div id="top-home">
             <div class="cloud-wrapper">
@@ -55,7 +54,6 @@
             <div class="mountain-wrapper">
                 <div class="image"></div>
             </div>
-
             <p class="call-to-action">A clothing brand for Hikers.</p>
         </div>
         <div class="middle-home">
@@ -88,7 +86,7 @@
         </div>
         <div id="bottom-home"></div>
     </section>
-    <!-- Overview section -->
+    <!----------------------------- Overview section ----------------------------->
     <section id="tips">
         <h2 class="display-4 my-5 mx-5 text-light text-center">Overview</h2>
         <div class="container">
@@ -123,12 +121,12 @@
             </div>
         </div>
     </section>
-    <!-- Shop section -->
+    <!----------------------------- Shop section ----------------------------->
     <section id="equipment">
         <h2 class="display-4 mt-5 mb-2 text-primary text-center">Order today</h2>
         <div class="equipment-wrapper">
             <h4 class="text-secondary text-center">Designed with you in mind</h4>
-            <!-- Shop section: Carousel (smaller screens) -->
+            <!----------------------------- Carousel (sm screens) ----------------------------->
             <div id="carouselExampleControls" class="carousel slide my-5 d-md-none" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -185,8 +183,7 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
-            <!-- Shop section: larger screens -->
+            <!----------------------------- Shop (lg screen) ----------------------------->
             <div class="row d-none d-md-flex static-card-inner">
                 <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card card-overide">
@@ -235,31 +232,17 @@
             </div>
         </div>
     </section>
-    <!-- Contact section -->
+    <!----------------------------- Contact section ----------------------------->
     <section id="contact">
-        <h2 class="display-4 my-5 text-primary text-center">Get in touch</h2>
+        <h2 class="display-4 text-primary text-center">Get in touch</h2>
         <div class="contact-wrapper w-100">
-            <!-- Upper Contact section -->
+            <!----------------------------- Upper Contact ----------------------------->
             <div class="upper-contact d-flex flex-row justify-content-around align-items-center">
-                <!-- Upper Contact section: left side -->
-                <div class="d-flex order-2 mx-2 flex-column justify-content-around align-items-center">
-                    <a href="tel:08712345678" class="w-100 text-left text-dark text-decoration-none contact-link">
-                        <i class="fas fa-phone"></i> 087123456789
-                    </a>
-                    <a href="mailto:iamchugh@tcd.ie"
-                        class="w-100 text-left text-dark text-decoration-none contact-link">
-                        <i class="fas fa-at"></i> hello@hyker.com
-                    </a>
-                    <h5 class="w-100 text-left contact-link">
-                        <i class="fas fa-map-marker-alt"></i> 26 Merrion St Upper, Dublin
-                    </h5>
-                </div>
-                <!-- Upper Contact section: right side -->
-                <div class="d-none order-1 mx-2 d-lg-flex flex-column justify-content-around align-items-center">
+                <div class="d-none mx-2 d-lg-flex justify-content-center">
                     <h2 class="display-5 font-weight-light">We'd love to hear from you</h2>
                 </div>
             </div>
-            <!-- Lower contact section -->
+            <!----------------------------- Lower Contact ----------------------------->
             <div class="lower-contact w-100">
                 <div class="h-100 d-flex container justify-content-center">
                     <div class="row w-100">
@@ -279,28 +262,46 @@
             </div>
         </div>
     </section>
-    <!-- Footer section -->
-    <footer class="d-flex justify-content-around align-items-center">
+    <!----------------------------- Footer section ----------------------------->
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-3 text-center">
-                    <a href="https://www.github.com"><i class="sm-icons fab fa-github-square fa-5x"></i></a>
+            <div class="row mb-0">
+                <!----------------------------- Contact info ----------------------------->
+                <div class="col-12 col-lg-4 my-4 mx-2 d-flex flex-column justify-content-center align-items-center">
+                    <a href="tel:08712345678" class="w-100 text-center text-light text-decoration-none contact-link">
+                        <i class="fas fa-phone"></i> 087123456789
+                    </a>
+                    <a href="mailto:iamchugh@tcd.ie"
+                        class="w-100 text-center text-light text-decoration-none contact-link">
+                        <i class="fas fa-at"></i> hello@hyker.com
+                    </a>
+                    <h5 class="w-100 text-center contact-link">
+                        <i class="fas fa-map-marker-alt"></i> 26 Merrion St Upper, Dublin
+                    </h5>
                 </div>
-                <div class="col-3 text-center">
-                    <a href="https://www.facebook.com"><i class="sm-icons fab fa-facebook-square fa-5x"></i></a>
-                </div>
-                <div class="col-3 text-center">
-                    <a href="https://www.twitter.com"><i class="sm-icons fab fa-twitter-square fa-5x"></i></a>
-                </div>
-                <div class="col-3 text-center">
-                    <a href="https://www.youtube.com"><i class="sm-icons fab fa-youtube-square fa-5x"></i></a>
+                <div class="col-lg-3"></div>
+                <!----------------------------- Social Media ----------------------------->
+                <div class="col-12 col-lg-4 container">
+                    <div class="row">
+                        <div class="col-3 text-center">
+                            <a href="https://www.github.com"><i class="sm-icons fab fa-github-square fa-5x"></i></a>
+                        </div>
+                        <div class="col-3 text-center">
+                            <a href="https://www.facebook.com"><i class="sm-icons fab fa-facebook-square fa-5x"></i></a>
+                        </div>
+                        <div class="col-3 text-center">
+                            <a href="https://www.twitter.com"><i class="sm-icons fab fa-twitter-square fa-5x"></i></a>
+                        </div>
+                        <div class="col-3 text-center">
+                            <a href="https://www.youtube.com"><i class="sm-icons fab fa-youtube-square fa-5x"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
-
-    <!-- Bootstrap - JS scripts -->
+    <!----------------------------- Bootstrap - JS scripts ----------------------------->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
